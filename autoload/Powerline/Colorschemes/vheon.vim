@@ -74,7 +74,7 @@ let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
         \ 'n': ['base03', 'blue'],
-        \ 'N': ['gray5', 'base03'],
+        \ 'N': ['base1', 'base03'],
         \ }),
     \
     \ Pl#Hi#Segments(['scrollpercent'], {
