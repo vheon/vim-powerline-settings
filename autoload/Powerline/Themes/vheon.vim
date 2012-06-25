@@ -9,7 +9,7 @@
 " RVM taken out - I'm not a ruby developer
 "\ , 'rvm:string'
 
-let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
+let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
     \ Pl#Theme#Buffer(''
         \ , 'mode_indicator'
         \ , 'fugitive:branch'
