@@ -8,10 +8,12 @@
 "
 " RVM taken out - I'm not a ruby developer
 "\ , 'rvm:string'
+"
+" Mode indicator taken out - Just an attempt, I know in what mode I am usually
+" \ , 'mode_indicator'
 
 let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
     \ Pl#Theme#Buffer(''
-        \ , 'mode_indicator'
         \ , 'fugitive:branch'
         \ , 'fileinfo'
         \ , 'flags.mod'
