@@ -74,12 +74,7 @@ let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
         \ 'n': ['base03', 'blue'],
-        \ 'N': ['base1', 'base03'],
-        \ }),
-    \
-    \ Pl#Hi#Segments(['scrollpercent'], {
-        \ 'n': ['gray7', 'gray2'],
-        \ 'N': ['base2', 'base02'],
+        \ 'N': ['base01', 'base03'],
         \ }),
     \
     \ Pl#Hi#Segments(['fileinfo', 'filename', 'filepath'], {
@@ -110,21 +105,31 @@ let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
         \ 'i': ['mediumcyan', 'base02'],
         \ }),
     \
+    \ Pl#Hi#Segments(['filetype'], {
+        \ 'n': ['base03', 'base0'],
+        \ 'i': ['mediumcyan', 'base02'],
+        \}),
+    \
+    \ Pl#Hi#Segments(['scrollpercent'], {
+        \ 'n': ['base03', 'yellow'],
+        \ 'N': ['base2', 'base02'],
+        \ }),
+    \
     \ Pl#Hi#Segments(['lineinfo'], {
-        \ 'n': ['gray2', 'gray10', ['bold']],
+        \ 'n': ['base03', 'base01', ['bold']],
         \ 'N': ['gray7', 'gray1', ['bold']],
         \ 'i': ['darkestcyan', 'mediumcyan', ['bold']],
+        \ }),
+    \
+    \ Pl#Hi#Segments(['lineinfo.line.tot'], {
+        \ 'n': ['base02'],
+        \ 'N': ['gray5'],
+        \ 'i': ['darkestcyan'],
         \ }),
     \
     \ Pl#Hi#Segments(['errors'], {
         \ 'n': ['orange', 'base02', ['bold']],
         \ 'N': ['gray5', 'base03', ['bold']],
-        \ }),
-    \
-    \ Pl#Hi#Segments(['lineinfo.line.tot'], {
-        \ 'n': ['gray6'],
-        \ 'N': ['gray5'],
-        \ 'i': ['darkestcyan'],
         \ }),
     \
     \ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {

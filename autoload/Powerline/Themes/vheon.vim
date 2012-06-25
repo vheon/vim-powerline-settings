@@ -20,8 +20,9 @@ let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
         \ , 'syntastic:errors'
         \ , Pl#Segment#Truncate()
         \ , Pl#Segment#Split()
-        \ , 'scrollpercent'
+        \ , 'filetype'
         \ , 'lineinfo'
+        \ , 'scrollpercent'
         \ , 'paste_indicator'
     \ ),
     \
