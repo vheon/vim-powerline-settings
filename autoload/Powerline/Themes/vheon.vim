@@ -3,21 +3,24 @@
 " group
 " \ , 'currhigroup'
 "
-" Line info taken out - I know which line number I'm on from the gutter
-"\ , 'lineinfo'
+" Sass status taken out - I don't use it yet
+"\ , 'sass:status'
+"
+" RVM taken out - I'm not a ruby developer
+"\ , 'rvm:string'
+
 let g:Powerline#Themes#skwp#theme = Pl#Theme#Create(
     \ Pl#Theme#Buffer(''
+        \ , 'mode_indicator'
         \ , 'fugitive:branch'
         \ , 'fileinfo'
         \ , 'flags.mod'
         \ , 'syntastic:errors'
         \ , Pl#Segment#Truncate()
         \ , Pl#Segment#Split()
-        \ , 'sass:status'
-        \ , 'rvm:string'
-        \ , 'paste_indicator'
         \ , 'scrollpercent'
         \ , 'lineinfo'
+        \ , 'paste_indicator'
     \ ),
     \
     \ Pl#Theme#Buffer('command_t'
