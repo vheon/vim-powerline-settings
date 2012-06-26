@@ -90,7 +90,7 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['static_str'], {
         \ 'n': ['base3', 'violet'],
-        \ 'N': ['base1', 'base02'],
+        \ 'N': ['base01', 'base2'],
         \ 'i': ['white', 'base02'],
         \ }),
     \
@@ -106,28 +106,28 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
         \ }),
     \
     \ Pl#Hi#Segments(['filetype'], {
-        \ 'n': ['base03', 'base0'],
-        \ 'N': ['base03', 'base0'],
+        \ 'n': ['base3', 'base00'],
+        \ 'N': ['base3', 'base00'],
         \}),
     \
     \ Pl#Hi#Segments(['scrollpercent'], {
-        \ 'n': ['base03', 'orange'],
-        \ 'N': ['base01', 'base03'],
+        \ 'n': ['base3', 'orange'],
+        \ 'N': ['base1', 'base3'],
         \ }),
     \
     \ Pl#Hi#Segments(['lineinfo'], {
-        \ 'n': ['base03', 'base01', ['bold']],
-        \ 'N': ['base01', 'base02', ['bold']],
+        \ 'n': ['base3', 'base1', ['bold']],
+        \ 'N': ['base1', 'base2', ['bold']],
         \ }),
     \
     \ Pl#Hi#Segments(['lineinfo.line.tot'], {
-        \ 'n': ['base02'],
+        \ 'n': ['base2'],
         \ 'N': ['base00'],
         \ 'i': ['darkestcyan'],
         \ }),
     \
     \ Pl#Hi#Segments(['errors'], {
-        \ 'n': ['orange', 'base02', ['bold']],
+        \ 'n': ['orange', 'base2', ['bold']],
         \ 'N': ['gray5', 'base03', ['bold']],
         \ }),
     \
@@ -137,17 +137,17 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
         \ 'n': ['base3', 'darkblue', ['bold']],
-        \ 'N': ['base1', 'base03', ['bold']],
+        \ 'N': ['base01', 'base3', ['bold']],
         \ }),
     \
     \ Pl#Hi#Segments(['gundo:static_str.buffer', 'command_t:raw.line'], {
-        \ 'n': ['white', 'base02'],
-        \ 'N': ['gray5', 'base02'],
+        \ 'n': ['base00', 'base2'],
+        \ 'N': ['gray5', 'base2'],
         \ }),
     \
     \ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
-        \ 'n': ['white', 'base02'],
-        \ 'N': ['white', 'base02'],
+        \ 'n': ['red', 'base2'],
+        \ 'N': ['red', 'base2'],
         \ }),
     \
     \ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
@@ -194,6 +194,7 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
         \ 'N': ['gray5', 'base02'],
     \ }),
 \ ])
+
 
 
 
