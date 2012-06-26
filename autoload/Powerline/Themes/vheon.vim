@@ -15,10 +15,8 @@
 let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
     \ Pl#Theme#Buffer(''
         \ , 'fugitive:branch'
-        \ , 'flags.ro'
-        \ , 'filename'
+        \ , 'fileinfo'
         \ , 'flags.mod'
-        \ , 'flags.type'
         \ , 'syntastic:errors'
         \ , Pl#Segment#Truncate()
         \ , Pl#Segment#Split()
