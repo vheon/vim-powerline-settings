@@ -108,7 +108,6 @@ let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
     \ Pl#Hi#Segments(['filetype'], {
         \ 'n': ['base03', 'base0'],
         \ 'N': ['base03', 'base0'],
-        \ 'i': ['mediumcyan', 'base02'],
         \}),
     \
     \ Pl#Hi#Segments(['scrollpercent'], {
@@ -118,13 +117,13 @@ let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['lineinfo'], {
         \ 'n': ['base03', 'base01', ['bold']],
-        \ 'N': ['gray7', 'gray1', ['bold']],
+        \ 'N': ['base01', 'base02', ['bold']],
         \ 'i': ['darkestcyan', 'mediumcyan', ['bold']],
         \ }),
     \
     \ Pl#Hi#Segments(['lineinfo.line.tot'], {
         \ 'n': ['base02'],
-        \ 'N': ['gray5'],
+        \ 'N': ['base00'],
         \ 'i': ['darkestcyan'],
         \ }),
     \
@@ -196,4 +195,5 @@ let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
         \ 'N': ['gray5', 'base02'],
     \ }),
 \ ])
+
 
