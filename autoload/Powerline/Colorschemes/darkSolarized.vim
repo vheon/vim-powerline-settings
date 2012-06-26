@@ -1,5 +1,5 @@
 " This theme is based on Solarized-dark colors, combined
-" with Powerline native colors
+" with Powerline native colors, starting from skwp colorscheme
 call Pl#Hi#Allocate({
     \ 'black'          : 16,
     \ 'white'          : 231,

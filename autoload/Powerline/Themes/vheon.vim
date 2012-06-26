@@ -11,6 +11,10 @@
 "
 " Mode indicator taken out - Just an attempt, I know in what mode I am usually
 " \ , 'mode_indicator'
+"
+" Lineinfo taken out - I don't really need to look at it to know at what line
+" I am
+" \ , 'lineinfo'
 
 let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
     \ Pl#Theme#Buffer(''
@@ -21,7 +25,6 @@ let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
         \ , Pl#Segment#Truncate()
         \ , Pl#Segment#Split()
         \ , 'filetype'
-        \ , 'lineinfo'
         \ , 'scrollpercent'
         \ , 'paste_indicator'
     \ ),
