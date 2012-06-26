@@ -73,13 +73,13 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
         \ }),
     \
     \ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
-        \ 'n': ['base03', 'blue'],
-        \ 'N': ['base01', 'base03'],
+        \ 'n': ['base3', 'blue'],
+        \ 'N': ['base1', 'base3'],
         \ }),
     \
     \ Pl#Hi#Segments(['fileinfo', 'filename', 'filepath'], {
         \ 'n': ['base2', 'darkestblue', ['bold']],
-        \ 'N': ['base1', 'base02', ['bold']],
+        \ 'N': ['base1', 'base2', ['bold']],
         \ }),
     \
     \ Pl#Hi#Segments(['fileinfo.filepath'], {
@@ -102,7 +102,7 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
         \ 'n': ['gray5', 'gray2'],
-        \ 'i': ['mediumcyan', 'base02'],
+        \ 'i': ['mediumcyan', 'base2'],
         \ }),
     \
     \ Pl#Hi#Segments(['filetype'], {
@@ -194,5 +194,6 @@ let g:Powerline#Colorschemes#lightSolarized#colorscheme = Pl#Colorscheme#Init([
         \ 'N': ['gray5', 'base02'],
     \ }),
 \ ])
+
 
 
