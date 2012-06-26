@@ -83,8 +83,8 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
         \ }),
     \
     \ Pl#Hi#Segments(['fileinfo.filepath'], {
-        \ 'n': ['gray10'],
-        \ 'N': ['gray5'],
+        \ 'n': ['base1'],
+        \ 'N': ['base00'],
         \ 'i': ['mediumcyan'],
         \ }),
     \
@@ -95,7 +95,7 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
         \ }),
     \
     \ Pl#Hi#Segments(['fileinfo.flags'], {
-        \ 'n': ['base03', ['bold']],
+        \ 'n': ['yellow', ['bold']],
         \ 'N': ['gray5'],
         \ 'i': ['base03', ['bold']],
         \ }),
@@ -106,7 +106,7 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
         \ }),
     \
     \ Pl#Hi#Segments(['filetype'], {
-        \ 'n': ['base03', 'base0'],
+        \ 'n': ['base03', 'green'],
         \ 'N': ['base03', 'base0'],
         \}),
     \
@@ -194,5 +194,3 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
         \ 'N': ['gray5', 'base02'],
     \ }),
 \ ])
-
-
