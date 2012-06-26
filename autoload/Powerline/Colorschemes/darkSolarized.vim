@@ -118,7 +118,6 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
     \ Pl#Hi#Segments(['lineinfo'], {
         \ 'n': ['base03', 'base01', ['bold']],
         \ 'N': ['base01', 'base02', ['bold']],
-        \ 'i': ['darkestcyan', 'mediumcyan', ['bold']],
         \ }),
     \
     \ Pl#Hi#Segments(['lineinfo.line.tot'], {
