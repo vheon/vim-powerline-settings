@@ -112,7 +112,7 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
     \
     \ Pl#Hi#Segments(['scrollpercent'], {
         \ 'n': ['base03', 'orange'],
-        \ 'N': ['base2', 'base02'],
+        \ 'N': ['base01', 'base03'],
         \ }),
     \
     \ Pl#Hi#Segments(['lineinfo'], {
