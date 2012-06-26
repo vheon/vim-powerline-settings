@@ -58,7 +58,7 @@ call Pl#Hi#Allocate({
     \ 'green'          : [64, 0x859900],
     \ })
 
-let g:Powerline#Colorschemes#vheon#colorscheme = Pl#Colorscheme#Init([
+let g:Powerline#Colorschemes#dark-solarized#colorscheme = Pl#Colorscheme#Init([
     \ Pl#Hi#Segments(['SPLIT'], {
         \ 'n': ['white', 'base02'],
         \ 'N': ['white', 'base02'],
