@@ -122,3 +122,4 @@ let g:Powerline#Themes#vheon#theme = Pl#Theme#Create(
         \ , Pl#Segment#Split()
     \ )
 \ )
+
