@@ -165,16 +165,24 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
         \ 'N': ['gray3', 'base02'],
         \ }),
     \
-    \ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-        \ 'n': ['green', 'base03'],
-        \ }),
-    \
-    \ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next', 'ctrlp:pwd'], {
+    \ Pl#Hi#Segments(['ctrlp:focus'], {
         \ 'n': ['green', 'base02'],
         \ }),
     \
+    \ Pl#Hi#Segments(['ctrlp:byfname'], {
+        \ 'n': ['green', 'base01'],
+        \ }),
+    \
+    \ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next'], {
+        \ 'n': ['base1', 'darkestblue'],
+        \ }),
+    \
     \ Pl#Hi#Segments(['ctrlp:item'], {
-        \ 'n': ['base2', 'darkestblue', ['bold']],
+        \ 'n': ['base2', 'blue', ['bold']],
+        \ }),
+    \
+    \ Pl#Hi#Segments(['ctrlp:pwd'], {
+        \ 'n': ['base03', 'orange'],
         \ }),
     \
     \ Pl#Hi#Segments(['ctrlp:marked'], {
@@ -194,3 +202,6 @@ let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
         \ 'N': ['gray5', 'base02'],
     \ }),
 \ ])
+
+
+
