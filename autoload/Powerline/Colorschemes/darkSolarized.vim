@@ -48,14 +48,14 @@ call Pl#Hi#Allocate({
     \ 'base1'          : [14, 0x93a1a1],
     \ 'base2'          : [7, 0xeee8d5],
     \ 'base3'          : [15, 0xfdf6e3],
-    \ 'yellow'         : [1, 0xb58900],
-    \ 'orange'         : [2, 0xcb4b16],
-    \ 'red'            : [3, 0xdc322f],
-    \ 'magenta'        : [4, 0xd33682],
-    \ 'violet'         : [5, 0x6c71c4],
-    \ 'blue'           : [6, 0x268bd2],
-    \ 'cyan'           : [9, 0x2aa198],
-    \ 'green'          : [13, 0x859900],
+    \ 'yellow'         : [3, 0xb58900],
+    \ 'orange'         : [9, 0xcb4b16],
+    \ 'red'            : [1, 0xdc322f],
+    \ 'magenta'        : [5, 0xd33682],
+    \ 'violet'         : [13, 0x6c71c4],
+    \ 'blue'           : [4, 0x268bd2],
+    \ 'cyan'           : [6, 0x2aa198],
+    \ 'green'          : [2, 0x859900],
     \ })
 
 let g:Powerline#Colorschemes#darkSolarized#colorscheme = Pl#Colorscheme#Init([
