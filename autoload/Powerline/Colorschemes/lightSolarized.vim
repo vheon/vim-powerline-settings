@@ -43,7 +43,7 @@ call Pl#Hi#Allocate({
     \ 'base00'         : [240, 0x657b83],
     \ 'base01'         : [239, 0x586e75],
     \ 'base02'         : [235, 0x073642],
-    \ 'base03'         : [234, 0x002b36],
+    \ 'base03'         : ["DarkGray", 0x002b36],
     \ 'base0'          : [244, 0x839496],
     \ 'base1'          : [245, 0x93a1a1],
     \ 'base2'          : [187, 0xeee8d5],
